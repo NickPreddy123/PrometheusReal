@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &277432120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2733447970936403400, guid: 4947928de3df45143839c3571358a514, type: 3}
-  m_PrefabInstance: {fileID: 815237299}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &351028651 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2733447971038619043, guid: 4947928de3df45143839c3571358a514, type: 3}
@@ -247,6 +242,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4947928de3df45143839c3571358a514, type: 3}
+--- !u!1 &815237300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6408186547177389012, guid: 4947928de3df45143839c3571358a514, type: 3}
+  m_PrefabInstance: {fileID: 815237299}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1460657763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2733447970195136381, guid: 4947928de3df45143839c3571358a514, type: 3}
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterPrefabs:
   - {fileID: 1460657763}
-  - {fileID: 277432120}
+  - {fileID: 815237300}
   - {fileID: 351028651}
   - {fileID: 1594257077}
   spawnPoint: {fileID: 1969726665}
