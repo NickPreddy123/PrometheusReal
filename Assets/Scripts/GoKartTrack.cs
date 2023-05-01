@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewYork : MonoBehaviour
+public class GoKartTrack : MonoBehaviour
 {
-    public void MapSelectToNewYork()
+    public void MapSelectToGoCart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
