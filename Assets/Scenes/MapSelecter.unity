@@ -1043,7 +1043,7 @@ GameObject:
   - component: {fileID: 917741285}
   - component: {fileID: 917741288}
   m_Layer: 5
-  m_Name: New York
+  m_Name: Go Kart Track
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1119,8 +1119,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 917741288}
-        m_TargetAssemblyTypeName: NewYork, Assembly-CSharp
-        m_MethodName: MapSelectToNewYork
+        m_TargetAssemblyTypeName: GoKartTrack, Assembly-CSharp
+        m_MethodName: MapSelectToGoCart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85068b9a43fc0d84aaf528931d590f25, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f86a9b20061ceb14291d880bda76dfd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2970,7 +2970,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.0704956, y: 116}
+  m_AnchoredPosition: {x: 3.0704956, y: 95.2}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2130795590
@@ -3006,7 +3006,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New York (Mario Cart tour)
+  m_Text: ' go kart track'
 --- !u!222 &2130795591
 CanvasRenderer:
   m_ObjectHideFlags: 0
