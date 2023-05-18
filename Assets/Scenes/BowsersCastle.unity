@@ -1952,13 +1952,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2733447969268424519, guid: 4947928de3df45143839c3571358a514, type: 3}
+      propertyPath: useUI
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733447969268424519, guid: 4947928de3df45143839c3571358a514, type: 3}
       propertyPath: carEngineSound
       value: 
       objectReference: {fileID: 1948766634}
     - target: {fileID: 2733447969268424519, guid: 4947928de3df45143839c3571358a514, type: 3}
+      propertyPath: maxSteeringAngle
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733447969268424519, guid: 4947928de3df45143839c3571358a514, type: 3}
       propertyPath: tireScreechSound
       value: 
       objectReference: {fileID: 1557980363}
+    - target: {fileID: 2733447969268424519, guid: 4947928de3df45143839c3571358a514, type: 3}
+      propertyPath: handbrakeDriftMultiplier
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2733447970134841491, guid: 4947928de3df45143839c3571358a514, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2933,7 +2945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2943,7 +2955,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 20
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
