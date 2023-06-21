@@ -7,7 +7,7 @@ public class MapSelectToRaceTrack : MonoBehaviour
 {
     public void MapSelectToRace()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 8);
     }
 }
 
