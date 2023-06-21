@@ -10144,6 +10144,7 @@ GameObject:
   - component: {fileID: 6693527504177208559}
   - component: {fileID: 3832283594961370710}
   - component: {fileID: 7628360387938493931}
+  - component: {fileID: 6292654174594241068}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -10213,6 +10214,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Stopwatch
+--- !u!114 &6292654174594241068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797904656186124423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88465dd45fb250047a86a3ed239f1658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopwatchText: {fileID: 7628360387938493931}
 --- !u!1 &797904656679130179
 GameObject:
   m_ObjectHideFlags: 0
@@ -17554,19 +17568,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4030559222243636318}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 23.906319}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6693527504177208559}
   - {fileID: 3138923620480866689}
-  m_Father: {fileID: 6388560935555282520}
-  m_RootOrder: 4
+  m_Father: {fileID: 797904656778152309}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50.575443, y: 33.77729}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!223 &8013380114427135037
@@ -23339,7 +23353,6 @@ Transform:
   - {fileID: 1383597267955674795}
   - {fileID: 8214136821193040885}
   - {fileID: 910216622136874823}
-  - {fileID: 9052890964266634129}
   m_Father: {fileID: 797904656711644370}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -178.154, z: 0}
