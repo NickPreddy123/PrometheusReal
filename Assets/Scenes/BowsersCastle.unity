@@ -1448,6 +1448,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e4c6f3cef55a4f4f8d36d81ee45df00, type: 3}
+--- !u!82 &717315505 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4878570378148283706, guid: 5e4c6f3cef55a4f4f8d36d81ee45df00,
+    type: 3}
+  m_PrefabInstance: {fileID: 717315504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &717315506 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4878570378599946417, guid: 5e4c6f3cef55a4f4f8d36d81ee45df00,
+    type: 3}
+  m_PrefabInstance: {fileID: 717315504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &751840570 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4641302293541248565, guid: d79403ae681c8f7469882e4aa54973ab,
@@ -2094,11 +2106,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 797904656778152307, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: carEngineSound
+      value: 
+      objectReference: {fileID: 717315506}
+    - target: {fileID: 797904656778152307, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: tireScreechSound
+      value: 
+      objectReference: {fileID: 717315505}
+    - target: {fileID: 4951491503470433009, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: carEngineSound
+      value: 
+      objectReference: {fileID: 717315506}
+    - target: {fileID: 4951491503470433009, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: tireScreechSound
+      value: 
+      objectReference: {fileID: 717315505}
+    - target: {fileID: 6348284609574278789, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: carEngineSound
+      value: 
+      objectReference: {fileID: 717315506}
+    - target: {fileID: 6348284609574278789, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: tireScreechSound
+      value: 
+      objectReference: {fileID: 717315505}
+    - target: {fileID: 8279966057006931446, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: carEngineSound
+      value: 
+      objectReference: {fileID: 717315506}
+    - target: {fileID: 8279966057006931446, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: tireScreechSound
+      value: 
+      objectReference: {fileID: 717315505}
     - target: {fileID: 8466359068600548210, guid: c49f1a3756e57324cbbeb2054158b504,
         type: 3}
       propertyPath: m_Name
       value: Character Models 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8748304328753352876, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: carEngineSound
+      value: 
+      objectReference: {fileID: 717315506}
+    - target: {fileID: 8748304328753352876, guid: c49f1a3756e57324cbbeb2054158b504,
+        type: 3}
+      propertyPath: tireScreechSound
+      value: 
+      objectReference: {fileID: 717315505}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c49f1a3756e57324cbbeb2054158b504, type: 3}
 --- !u!1 &1173926648 stripped
